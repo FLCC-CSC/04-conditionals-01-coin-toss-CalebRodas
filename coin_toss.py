@@ -1,6 +1,6 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
+# NAME: Caleb Rodas
+# DATE: 10/2/2025
 # BRIEF DESCRIPTION:  
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
@@ -9,7 +9,18 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+import random
 
+def main():
+    print("===== Coin Flipper =====")
+    number = random.randint(1, 100)  # random number from 1–100
+    
+    if number >= 51:
+        print("Tails")
+    else:
+        print("Heads")
+
+main()
 
 
 
@@ -45,7 +56,7 @@ Tails
 1. What was the hardest part of completing this lab? 
 
 
-
+making a if else off of random
 
 
 
